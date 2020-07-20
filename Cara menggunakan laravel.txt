@@ -1,0 +1,7 @@
+untuk proses instalasi saya menggunakan aplikasi tidak menggunakan command line
+
+mendownload laravel : composer create-project --prefer-dist laravel/laravel laravel-pertama (Command line)
+composer akan mendownload laravel dengan nama folder laravel-pertama
+
+menyalakan laravel : php artisan serve
+laravel akan berjalan, lalu ke laman localhost:8000 untuk melihat apakah laravel sudah bisa berjalan
