@@ -96,32 +96,6 @@
             background: #fff;
         }
 
-        #sidebar ul li.active>a,
-        a[aria-expanded="true"] {
-            color: #fff;
-            background: #6d7fcc;
-        }
-
-
-        a[data-toggle="collapse"] {
-            position: relative;
-        }
-
-        a[aria-expanded="false"]::before,
-        a[aria-expanded="true"]::before {
-            content: '\e259';
-            display: block;
-            position: absolute;
-            right: 20px;
-            font-family: 'Glyphicons Halflings';
-            font-size: 0.6em;
-        }
-
-        a[aria-expanded="true"]::before {
-            content: '\e260';
-        }
-
-
         ul ul a {
             font-size: 0.9em !important;
             padding-left: 30px !important;
@@ -139,22 +113,6 @@
             border-radius: 5px;
             margin-bottom: 5px;
         }
-
-        a.download {
-            background: #fff;
-            color: #7386D5;
-        }
-
-        a.article,
-        a.article:hover {
-            background: #6d7fcc !important;
-            color: #fff !important;
-        }
-
-
-        /* ---------------------------------------------------
-    CONTENT STYLE
-    ----------------------------------------------------- */
         #content {
             width: calc(100% - 250px);
             padding: 40px;
@@ -171,7 +129,7 @@
     <div class="wrapper">
         <nav id="sidebar">
             <div class="sidebar-header">
-                <img src="{{ URL::to('/assets/img/adhi.jpg') }}">
+                <img src="{{ URL::to('/assets/img/ahi2.jpg') }}">
             </div>
 
             <ul class="list-unstyled components">
@@ -185,7 +143,7 @@
         </nav>
         <div id="content">
             <nav class="navbar navbar-default">
-                <h5>"Life is not a game of luck. If you wanna win, work hard"</h5>
+                <h5>"Life is not a game of luck. If you wanna win, work hard" -Sora</h5>
                 <div class="container-fluid">
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
@@ -197,15 +155,13 @@
 
             <h2>Profile</h2>
             <p>
-                Halo... semuanya nama saya Adhi Satria Banyuaji, saya dari Kelas XII RPL 2 jurusan saya adalah rekayasa perangkat lunak dan saya sekolah di SMK Taruna Bhakti.
+                Halo... semuanya nama saya Adhi Satria Banyuaji Umur saya 17 tahun, saya dari Kelas XII RPL 2 jurusan saya adalah rekayasa perangkat lunak dan saya sekolah di SMK Taruna Bhakti.
             </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.</p>
+            <br>
+            <p>
+                Saya mulai menyukai pemrograman semenjak saya masuk ke kelas 10, pertama-tama awalnya saya salah jurusan waktu itu saya ingin masuk ke TKJ / MM tetapi saya masuk ke RPL. Disini saya merasa kurang berminat untuk masuk ke RPL, tetapi setelah ikut ke pelajaran tambahan saya mulai berminat. Dan waktu itu saya ikut workshop android dan diajarkan oleh kak Ian dan timnya, lalu di akhir waktu kak Ian bilang "Jika kalian merasa salah jurusan... yang pertama adalah jalanin dulu siapa tau malah jadi sangat suka dengan jurusan kalian yang sekarang."
+            </p>
 
-            <div class="line"></div>
         </div>
     </div>
 </body>

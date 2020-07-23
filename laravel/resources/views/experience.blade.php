@@ -67,9 +67,6 @@
             margin: 40px 0;
         }
 
-        /* ---------------------------------------------------
-    SIDEBAR STYLE
-    ----------------------------------------------------- */
         #sidebar {
             width: 250px;
             position: fixed;
@@ -108,32 +105,6 @@
             background: #fff;
         }
 
-        #sidebar ul li.active>a,
-        a[aria-expanded="true"] {
-            color: #fff;
-            background: #6d7fcc;
-        }
-
-
-        a[data-toggle="collapse"] {
-            position: relative;
-        }
-
-        a[aria-expanded="false"]::before,
-        a[aria-expanded="true"]::before {
-            content: '\e259';
-            display: block;
-            position: absolute;
-            right: 20px;
-            font-family: 'Glyphicons Halflings';
-            font-size: 0.6em;
-        }
-
-        a[aria-expanded="true"]::before {
-            content: '\e260';
-        }
-
-
         ul ul a {
             font-size: 0.9em !important;
             padding-left: 30px !important;
@@ -152,21 +123,6 @@
             margin-bottom: 5px;
         }
 
-        a.download {
-            background: #fff;
-            color: #7386D5;
-        }
-
-        a.article,
-        a.article:hover {
-            background: #6d7fcc !important;
-            color: #fff !important;
-        }
-
-
-        /* ---------------------------------------------------
-    CONTENT STYLE
-    ----------------------------------------------------- */
         #content {
             width: calc(100% - 250px);
             padding: 40px;

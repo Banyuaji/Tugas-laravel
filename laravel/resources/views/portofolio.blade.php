@@ -20,6 +20,11 @@
             color: #2d3436;
         }
 
+        img {
+            border-radius: 25%;
+            width: 200px;
+        }
+
         a,
         a:hover,
         a:focus {
@@ -28,23 +33,6 @@
             transition: all 0.3s;
         }
 
-        .dark {
-            color : #2d3436;
-
-        }
-
-        .cbrand {
-            border-radius: 15%;
-            width: 200px;
-        }
-
-        .ccard {
-            padding: 0;
-        }
-
-        .progress-bar {
-            background-color: #0984e3;
-        }
         .navbar {
             padding: 15px 10px;
             background: #fff;
@@ -67,6 +55,9 @@
             margin: 40px 0;
         }
 
+        /* ---------------------------------------------------
+    SIDEBAR STYLE
+    ----------------------------------------------------- */
         #sidebar {
             width: 250px;
             position: fixed;
@@ -105,32 +96,6 @@
             background: #fff;
         }
 
-        #sidebar ul li.active>a,
-        a[aria-expanded="true"] {
-            color: #fff;
-            background: #6d7fcc;
-        }
-
-
-        a[data-toggle="collapse"] {
-            position: relative;
-        }
-
-        a[aria-expanded="false"]::before,
-        a[aria-expanded="true"]::before {
-            content: '\e259';
-            display: block;
-            position: absolute;
-            right: 20px;
-            font-family: 'Glyphicons Halflings';
-            font-size: 0.6em;
-        }
-
-        a[aria-expanded="true"]::before {
-            content: '\e260';
-        }
-
-
         ul ul a {
             font-size: 0.9em !important;
             padding-left: 30px !important;
@@ -148,18 +113,6 @@
             border-radius: 5px;
             margin-bottom: 5px;
         }
-
-        a.download {
-            background: #fff;
-            color: #7386D5;
-        }
-
-        a.article,
-        a.article:hover {
-            background: #6d7fcc !important;
-            color: #fff !important;
-        }
-
         #content {
             width: calc(100% - 250px);
             padding: 40px;
