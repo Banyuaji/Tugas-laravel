@@ -251,8 +251,8 @@
                                     <img width="100%" height="200px" src="{{ URL::to('/assets/img/akar.png') }}">
                                 </div>
                                 <div class="card-footer">
-                                    <h5 class="card-title">Sertifikat dicoding</h5>
-                                    <p>Sertifikat pemrograman web pemula</p>
+                                    <h5 class="card-title">Pt adhi karya</h5>
+                                    <p>design web pertama</p>
                                 </div>
                             </div>
                         </div>
@@ -262,8 +262,8 @@
                                     <img width="100%" height="200px" src="{{ URL::to('/assets/img/smart.png') }}">
                                 </div>
                                 <div class="card-footer">
-                                    <h5 class="card-title">Sertifikat dicoding</h5>
-                                    <p>Sertifikat pemrograman web pemula</p>
+                                    <h5 class="card-title">Web starbhakmart</h5>
+                                    <p>web uji level ke2</p>
                                 </div>
                             </div>
                         </div>
